@@ -113,10 +113,29 @@
   justify-content: space-around;
 }
 
+
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
 .awayButtons__fieldGoal {
+  margin: 1rem;
+  border-radius: 4px;
+}
+
+.quarterButtons {
+  width: 20%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.quarter1button, 
+.quarter2button, 
+.quarter3button, 
+.quarter4button {
+  width: 50%;
   margin: 1rem;
   border-radius: 4px;
 }
